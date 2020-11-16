@@ -1,0 +1,15 @@
+.heading-secondary {
+  text-align: center;
+}
+
+.employers__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.employers__cards :not(:last-child) {
+  /*margin-right: 2rem;*/
+}
+
+

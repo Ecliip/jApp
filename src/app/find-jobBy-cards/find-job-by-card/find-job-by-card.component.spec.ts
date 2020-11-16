@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FindYourJogByCardComponent } from './find-your-jog-by-card.component';
+import { FindJobByCardComponent } from './find-job-by-card.component';
 
-describe('FindYourJogByCardComponent', () => {
-  let component: FindYourJogByCardComponent;
-  let fixture: ComponentFixture<FindYourJogByCardComponent>;
+describe('FindJobByCardComponent', () => {
+  let component: FindJobByCardComponent;
+  let fixture: ComponentFixture<FindJobByCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FindYourJogByCardComponent ]
+      declarations: [ FindJobByCardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FindYourJogByCardComponent);
+    fixture = TestBed.createComponent(FindJobByCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

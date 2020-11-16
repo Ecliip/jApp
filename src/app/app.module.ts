@@ -4,16 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
-import { CardsComponent } from './cards/cards.component';
-import { CardComponent } from './cards/card/card.component';
 import { CouchServicesComponent } from './couch-services/couch-services.component';
-import { FindYourJogByCardComponent } from './find-your-jobBy-cards/find-your-jog-by-card/find-your-jog-by-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { CouchServiceComponent } from './couch-services/couch-service/couch-service.component';
 import {RouterModule} from '@angular/router';
+import { MainScreenComponent } from './main-screen/main-screen.component';
+import { EmployersCardsComponent } from './employers-cards/employers-cards.component';
+import { EmployersCardComponent } from './employers-cards/employers-card/employers-card.component';
+import { FindJobByCardComponent } from './find-jobBy-cards/find-job-by-card/find-job-by-card.component';
 
 const routes = [
-  {path: '', component: AppComponent}
+  {path: '', component: MainScreenComponent}
 ];
 
 @NgModule({
@@ -21,12 +22,13 @@ const routes = [
     AppComponent,
     HeaderComponent,
     SearchBarComponent,
-    CardsComponent,
-    CardComponent,
     CouchServicesComponent,
-    FindYourJogByCardComponent,
     FooterComponent,
-    CouchServiceComponent
+    CouchServiceComponent,
+    MainScreenComponent,
+    EmployersCardsComponent,
+    EmployersCardComponent,
+    FindJobByCardComponent
   ],
   imports: [
     BrowserModule,
