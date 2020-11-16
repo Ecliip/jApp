@@ -7,10 +7,14 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CardsComponent } from './cards/cards.component';
 import { CardComponent } from './cards/card/card.component';
 import { CouchServicesComponent } from './couch-services/couch-services.component';
-import { FindYourJobByCardsComponent } from './find-your-job-by-cards/find-your-job-by-cards.component';
 import { FindYourJogByCardComponent } from './find-your-jobBy-cards/find-your-jog-by-card/find-your-jog-by-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { CouchServiceComponent } from './couch-services/couch-service/couch-service.component';
+import {RouterModule} from '@angular/router';
+
+const routes = [
+  {path: '', component: AppComponent}
+];
 
 @NgModule({
   declarations: [
@@ -20,13 +24,13 @@ import { CouchServiceComponent } from './couch-services/couch-service/couch-serv
     CardsComponent,
     CardComponent,
     CouchServicesComponent,
-    FindYourJobByCardsComponent,
     FindYourJogByCardComponent,
     FooterComponent,
     CouchServiceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
