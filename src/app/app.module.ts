@@ -10,6 +10,7 @@ import { CouchServicesComponent } from './couch-services/couch-services.componen
 import { FindYourJobByCardsComponent } from './find-your-job-by-cards/find-your-job-by-cards.component';
 import { FindYourJogByCardComponent } from './find-your-jobBy-cards/find-your-jog-by-card/find-your-jog-by-card.component';
 import { FooterComponent } from './footer/footer.component';
+import { CouchServiceComponent } from './couch-services/couch-service/couch-service.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     CouchServicesComponent,
     FindYourJobByCardsComponent,
     FindYourJogByCardComponent,
-    FooterComponent
+    FooterComponent,
+    CouchServiceComponent
   ],
   imports: [
     BrowserModule
