@@ -31,3 +31,15 @@ html {
 .bg-skyblue{
   background-color: skyblue;
 }
+
+.heading-secondary {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.heading-tertiary {
+  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 5rem;
+  font-size: 2rem;
+}

@@ -11,7 +11,8 @@ import {RouterModule} from '@angular/router';
 import { MainScreenComponent } from './main-screen/main-screen.component';
 import { EmployersCardsComponent } from './employers-cards/employers-cards.component';
 import { EmployersCardComponent } from './employers-cards/employers-card/employers-card.component';
-import { FindJobByCardComponent } from './find-jobBy-cards/find-job-by-card/find-job-by-card.component';
+import { FindJobByFiltersComponent } from './find-job-by-filters/find-job-by-filters.component';
+import { FilterComponent } from './find-job-by-filters/filter/filter.component';
 
 const routes = [
   {path: '', component: MainScreenComponent}
@@ -28,7 +29,8 @@ const routes = [
     MainScreenComponent,
     EmployersCardsComponent,
     EmployersCardComponent,
-    FindJobByCardComponent
+    FindJobByFiltersComponent,
+    FilterComponent,
   ],
   imports: [
     BrowserModule,
