@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "jApp"
+  "defaultProject": "jApp",
+  "cli": {
+    "analytics": "7ce26108-0ea2-4971-9896-73fa515d1415"
+  }
 }
