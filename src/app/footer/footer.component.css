@@ -1,3 +1,65 @@
 .footer {
   background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
 }
+
+.footer__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-max {
+  width: 100%;
+}
+
+.footer__list {
+
+}
+
+.footer__list-item {
+
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icon-box {
+  display: flex;
+}
+
+.footer__icon-item:not(:last-of-type) {
+  margin-right: 2rem;
+}
+
+.footer__icon-headig {
+
+}
+
+.footer__app-store-icon {
+
+}
+
+.footer__list-horizontal {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer__link {
+
+}
+
