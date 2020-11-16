@@ -9,3 +9,25 @@ html {
   box-sizing: border-box;
   font-size: 10px;
 }
+
+.btn {
+  width: max-content;
+  padding: .5rem 1rem;
+  margin: auto;
+}
+
+.btn--blue {
+
+}
+
+.btn--med{
+
+}
+
+.bg-lightyellow{
+  background-color: lightyellow;
+}
+
+.bg-skyblue{
+  background-color: skyblue;
+}
