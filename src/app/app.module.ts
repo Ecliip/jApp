@@ -13,9 +13,22 @@ import { EmployersCardsComponent } from './employers-cards/employers-cards.compo
 import { EmployersCardComponent } from './employers-cards/employers-card/employers-card.component';
 import { FindJobByFiltersComponent } from './find-job-by-filters/find-job-by-filters.component';
 import { FilterComponent } from './find-job-by-filters/filter/filter.component';
+import { OffersMainComponent } from './offers-main/offers-main.component';
+import { LearningMainComponent } from './learning-main/learning-main.component';
+import { OrientacionMainComponent } from './orientacion-main/orientacion-main.component';
+import { CompaniesMainComponent } from './companies-main/companies-main.component';
+import { CandidateMainComponent } from './candidate-main/candidate-main.component';
 
 const routes = [
-  {path: '', component: MainScreenComponent}
+  {path: '', component: MainScreenComponent},
+  {path: 'ofertas-trabajo', component: OffersMainComponent},
+  {path: 'ofertas-trabajo/empleo-directivos', component: OffersMainComponent},
+  {path: 'ofertas-trabajo/empleo-directivos', component: OffersMainComponent},
+  {path: 'formacion', component: LearningMainComponent},
+  {path: 'orientacion-laboral', component: OrientacionMainComponent},
+  {path: 'empresas', component: CompaniesMainComponent},
+  {path: 'candidatos', component: CandidateMainComponent},
+
 ];
 
 @NgModule({
@@ -31,6 +44,11 @@ const routes = [
     EmployersCardComponent,
     FindJobByFiltersComponent,
     FilterComponent,
+    OffersMainComponent,
+    LearningMainComponent,
+    OrientacionMainComponent,
+    CompaniesMainComponent,
+    CandidateMainComponent,
   ],
   imports: [
     BrowserModule,

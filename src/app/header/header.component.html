@@ -1,19 +1,19 @@
 <header class="header">
   <div class="header__row">
-    <div class="header__logo">Job App</div>
+    <div class="header__logo"><a class="header__logo-link" routerLink="">Job App</a></div>
     <div class="header__links-container">
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li class="header__nav-item"><a class="header__link" href="#">Empleo</a></li>
-          <li class="header__nav-item"><a class="header__link" href="#">Executive</a></li>
-          <li class="header__nav-item"><a class="header__link" href="#">Formación</a></li>
-          <li class="header__nav-item"><a class="header__link" href="#">Consejos</a></li>
+          <li class="header__nav-item"><a class="header__link" routerLink="/ofertas-trabajo">Empleo</a></li>
+          <li class="header__nav-item"><a class="header__link" routerLink="/ofertas-trabajo/empleo-directivos">Executive</a></li>
+          <li class="header__nav-item"><a class="header__link" routerLink="/formacion">Formación</a></li>
+          <li class="header__nav-item"><a class="header__link" routerLink="/orientacion-laboral">Consejos</a></li>
         </ul>
       </nav>
       <div class="header__login">
         <ul class="header__login-list">
-          <li class="header__login-item">Acceso empresas</li>
-          <li class="header__login-item">Acceso candidatos</li>
+          <li class="header__login-item"><a class="header__btn btn header__btn--candidates" routerLink="/candidatos">Acceso candidatos</a></li>
+          <li class="header__login-item"><a class="header__btn btn header__btn--companies" routerLink="/empresas">Acceso empresas</a></li>
         </ul>
       </div>
     </div>
