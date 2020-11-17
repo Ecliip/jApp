@@ -1,0 +1,25 @@
+.search-bar__container {
+  display: flex;
+  width: 100%;
+  background-color: rgba(88, 164, 222, .7);
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 3rem 2rem 2rem;
+  border-radius: 5px;
+}
+
+.search-bar__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar__btn {
+
+}
+
+.search-bar__input-text, .search-bar__select, .search-bar__option  {
+  width: 35vw;
+  height: 5vh;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+}

@@ -13,11 +13,16 @@ html {
 .btn {
   width: max-content;
   padding: .5rem 1rem;
-  margin: auto;
 }
 
 .btn--blue {
+  background-color: #58a4de;
+  color: white;
+}
 
+.btn--orange {
+  background-color: orangered;
+  color: white;
 }
 
 .btn--med{

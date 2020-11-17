@@ -1,17 +1,19 @@
 <div class="employer">
-  <div class="employer__image-box">
-    <img class="employer__image" [src]="employer.photo">
-  </div>
-  <div class="employer__info-window">
-    <div class="employer-info-row">
-      <div class="employer__logo-box">
-        <img [src]="employer.logo" class="employer__logo-image">
-      </div>
-      <div class="employer__info-col">
-        <div class="employer__name">{{employer.name}}</div>
-        <div class="employer__offers">{{employer.offers}} ofertas</div>
-        <p class="employer__description">{{employer.description}}</p>
+  <a routerLink="#">
+    <div class="employer__image-box">
+      <img class="employer__image" [src]="employer.photo">
+    </div>
+    <div class="employer__info-window">
+      <div class="employer-info-row">
+        <div class="employer__logo-box">
+          <img [src]="employer.logo" class="employer__logo-image">
+        </div>
+        <div class="employer__info-col">
+          <div class="employer__name">{{employer.name}}</div>
+          <div class="employer__offers">{{employer.offers}} ofertas</div>
+          <p class="employer__description">{{employer.description}}</p>
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
